@@ -2,6 +2,9 @@
 
 Create github account --> signin -->click on new --> create a repository --> give repository name --> give public/private access to that repo -->create repository.
 
+![3](https://github.com/user-attachments/assets/c2c2f0da-d48b-47c2-b355-e1fc9699997f)
+![4](https://github.com/user-attachments/assets/f700ad89-7d7d-4cde-af41-81507fa08c40)
+
 # BRANCHING
 
 Main branch - points to production.
@@ -33,10 +36,14 @@ Workflow of pull request:
 
 Create git-dosa repo. Add readme.MD file.
 
+![5](https://github.com/user-attachments/assets/8e475036-4453-470d-9b8a-48d651a8b0d6)
+
 git add . ; git commit -m "Dosa project started first commit" ; git push origin main
 No body is allowed to do changes in the main branch. We ve to protect the main branch.
 We need to create some restrictions for main branch.
 Go to settings
+
+![6](https://github.com/user-attachments/assets/3d6085fd-944c-46bd-9ff8-78917a340e69)
 
 Give required/necessary rules for the main branch.
 Create another branch from main branch-> do changes ->create pull request->get approval-> then merge the changes.
@@ -45,10 +52,19 @@ Git log
 To create new branch
 Git checkout -b plain-dosa
 
+![7](https://github.com/user-attachments/assets/d2adc271-d5fa-49f8-81c6-5a55e9f5cc5f)
+
+![8](https://github.com/user-attachments/assets/9077d5db-fa05-4158-a91a-d4a19f136f6e)
+
+
 We ‘ve successfully completed plain dosa project needed to take it into the public. Need to merge with the main  branch.
+
+![9](https://github.com/user-attachments/assets/79182d4f-cd0f-4d87-9287-0f7451da0d90)
 
 Click on compare & pull request.
 There are 4 commits in total.
+
+![10](https://github.com/user-attachments/assets/b31659d8-b00b-49fd-af32-14dd71e167de)
 
 The first is created newly. It was created by GIT not by us.
 In order to get the changes into the main branch we use git pull command.
